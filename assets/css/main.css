@@ -3950,3 +3950,14 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+		/* Custom Portfolio Image Resizing */
+.image.main {
+    width: 50% !important;
+    margin: 0 auto 2em auto !important;
+    display: block !important;
+}
+
+.image.main img {
+    width: 100%;
+    height: auto;
+}
