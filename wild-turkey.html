@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Wild Turkey GUI - Gafur Samet Saglik</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="is-preload">
+        <div id="wrapper">
+            <header id="header">
+                <a href="index.html" class="logo"><strong>Gafur Samet Saglik</strong> <span>Portfolio</span></a>
+                <nav><a href="#menu">Menu</a></nav>
+            </header>
+
+            <nav id="menu">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#one">Projects</a></li>
+                    <li><a href="experience.html">Experience (Internship)</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                </ul>
+            </nav>
+
+            <div id="main" class="alt">
+                <section id="one">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>Wild Turkey: Java Object-Oriented GUI Application</h1>
+                        </header>
+                        
+                        <span class="image main"><img src="images/pic05.jpg" alt="Java Application Interface" /></span>
+                        
+                        <p>This project is a Java-based graphical application developed in Eclipse that models and renders a wild turkey. The application was built iteratively to demonstrate strict adherence to core Object-Oriented Programming principles, code conventions, and design patterns.</p>
+                        
+                        <h2>Architecture & Implementation Details</h2>
+                        
+                        <h3>Domain Model</h3>
+                        <span class="image main"><img src="images/UML_WildTurkey.jpg" alt="UML Class Diagram for Wild Turkey" /></span>
+                        
+                        <ul>
+                            <li><strong>Object-Oriented Modeling:</strong> Designed a UML class diagram to map out the parts and wholes of the animal domain. The hierarchy consists of domain classes with a depth of 3, utilizing aggregates and composites to model the turkey's anatomical components.</li>
+                            <li><strong>Graphical User Interface (GUI):</strong> Integrated a control panel with interactive buttons allowing users to modify the visual depiction (colors, sizes, and shapes) of the turkey objects.</li>
+                            <li><strong>State Machine Design Pattern:</strong> Implemented the State design pattern to control different graphical states of the application, driven by user inputs from the GUI buttons.</li>
+                            <li><strong>Scene Management & Inheritance:</strong> Utilized an ArrayList within a dedicated <code>Scene</code> class to manage multiple instances on the screen, applying the <code>LocatedRectangle</code> interface to evaluate spatial intersections. Overloaded rendering methods and random number generators were used to introduce visual variations between instances.</li>
+                        </ul>
+
+                        <ul class="actions">
+                            <li><a href="index.html" class="button">Back to Home</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <section id="contact">
+                <div class="inner">
+                    <section class="split">
+                        <section>
+                            <div class="contact-method">
+                                <span class="icon solid alt fa-envelope"></span>
+                                <h3>Email</h3>
+                                <a href="mailto:gafursametsaglik1@gmail.com">gafursametsaglik1@gmail.com</a>
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </section>
+
+            <footer id="footer">
+                <div class="inner">
+                    <ul class="icons">
+                        <li><a href="https://github.com/gafursamet3" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                        <li><a href="https://linkedin.com/in/gafursametsaglik" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                    </ul>
+                    <ul class="copyright">
+                        <li>&copy; Gafur Samet Saglik</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
